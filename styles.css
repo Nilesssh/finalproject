@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    size: 10px;
+}
+
+
+/********************* commodities *************************/
+.commonbtn{
+    border: none;
+    background: none;
+}
+.commonbtn:hover{
+    cursor:pointer;
+}
+
+.btn-black{
+    background-color: black;
+    border:none;
+    color: white;
+}
+.container{
+    width: 80vw;
+}
+/*********************Section 1 ********************/
+
+.headerSection{
+    background-color: #F2DEDF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.loginbtn{
+    border: 0.1rem solid black;
+    padding:0.3rem 2.5rem 0.3rem 2.5rem;
+}
+
+.midOfHeader{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-img{
+    width: 30rem;
+}
